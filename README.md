@@ -16,6 +16,8 @@ My 2nd mechanical keyboard is the ErgoDox, I think it's an excellent keyboard ov
 My daily keyboard is the Macbook Pro keyboard and I'm 100% productive with it. My goal was to build a keyboard that closely resembles this layout, doesn't make use of layers and keeps all the keys I may need immediately accessible, while, as mentioned above, keep my shoulders 
 externally rotated. 
 
+I'm planning to design a new keyboard from scratch soon, and my takeaways from working with this layout would help me make it even better.
+
 
 #### Layout
 The layout is very similar to my Macbook Pro keyboard, with the following main changes and design considerations:
@@ -30,13 +32,20 @@ The layout is very similar to my Macbook Pro keyboard, with the following main c
 ![](readme/bfo9000-layout-liorgonnen.jpg)
 
 #### Usability
-* ##### Colors
+
+###### Colors
  * The black/white keycaps are not just for a nice look- They're meant to help you put your fingers in the right place with just a glance.
  * The 3 black rows in between the space/enter and the numeric row make it very clear where the home row is.
  * 5 white keys on each side for the numeric row make it crystal clear where each number is and also where each Function key is as they're stacked right on top.
 
-* ##### Bumps
+###### Bumps
  * To navigate the keyboard without looking, There's a special bump on the `F` and `J` keys, like any other keyboards, but also on the Down Arrow key, and the `Backspace` to the right of the `A` key.
+ 
+###### Downsides
+* Some things I would change right away if I could:
+  *  Make the tab/backspace/esc keys (the entire column) 2u instead of 1u. This turns out to be significant for usability
+  *  Same for the space and enter key. They would've been more comfortable as 2u
+  *  I would place the microcontroller on the top of the PCB on the side as opposed to underneath the swithces to make the keyboard even flatter
 
 #### Case
 Designed in Fusion 360 and printed on a Prusa i3 MK3.
@@ -57,5 +66,14 @@ Grab the `.stl` files or the original `.f3d` file and change to your needs from 
 
 ![](readme/bfo9000-pcb.jpg)
 
-One more pic...
+#### Height Comparison to ErgoDox EZ
+One of the things I don't like about the PCB design, is that the pro-micro / Elite-C is placed underneath the switches, on the bottom side of the PCB, and next to the switches on the TOP side of the PCB. This makes the board significantly taller than it could be. Especially when using low-profile switches like I do here.
+
+On top of that, I socketed my microcontrollers which added additional height and I ended up using 10mm spacers. With a different design I could easily shave 9mm from the final height (Leaving just 1mm-2mm spacing for the diodes and the switch legs.
+
+Having said that, the keyboard is still significantly lower than the ErgoDox EZ, and also much smaller despite having more keys and a much more complete layout.
+
+![](readme/bfo9000-vs-ergodox.jpg)
+
+#### One more pic...
 ![](readme/bfo9000-1.jpg)
