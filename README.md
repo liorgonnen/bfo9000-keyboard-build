@@ -28,3 +28,25 @@ The layout is very similar to my Macbook Pro keyboard, with the following main c
 7. Since QMK doesn't support the Mac Fn key, I added a Ctrl+Cmd+Q key to quickly lock the computer
 
 ![](readme/bfo9000-layout-liorgonnen.jpg)
+
+#### Case
+Designed in Fusion 360 and printed on a Prusa i3 MK3.
+
+
+Grab the `.stl` files or the original `.f3d` file and change to your needs from the [case](case) folder. 
+
+![](readme/bfo9000-case-fusion360-liorgonnen.png)
+
+#### Other Build Details
+* PCBs from [Keebio](https://keeb.io/products/bfo-9000-keyboard-customizable-full-size-split-ortholinear)
+* Elite-C v4 from [Keebio](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4)
+* Key switches from [NovelKeys](https://novelkeys.xyz/products/kailh-low-profile-switches)
+* Keycaps from [Little Keyboards](https://www.littlekeyboards.com/products/mbk-choc-low-profile-keycaps) (Originally purchased in a group-buy)
+* Surface-mount diodes from [Mouser](https://www.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D)
+* Spacers (10mm) from AliExpress
+* 2.5mm screws from Amazon
+
+![](readme/bfo9000-pcb.jpg)
+
+One more pic...
+![](readme/bfo9000-1.jpg)
