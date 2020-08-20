@@ -29,6 +29,15 @@ The layout is very similar to my Macbook Pro keyboard, with the following main c
 
 ![](readme/bfo9000-layout-liorgonnen.jpg)
 
+#### Usability
+* ##### Colors
+ * The black/white keycaps are not just for a nice look- They're meant to help you put your fingers in the right place with just a glance.
+ * The 3 black rows in between the space/enter and the numeric row make it very clear where the home row is.
+ * 5 white keys on each side for the numeric row make it crystal clear where each number is and also where each Function key is as they're stacked right on top.
+
+* ##### Bumps
+ * To navigate the keyboard without looking, There's a special bump on the `F` and `J` keys, like any other keyboards, but also on the Down Arrow key, and the `Backspace` to the right of the `A` key.
+
 #### Case
 Designed in Fusion 360 and printed on a Prusa i3 MK3.
 
